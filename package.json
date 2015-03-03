@@ -1,0 +1,25 @@
+{
+  "name": "plunker-shot-plugin",
+  "version": "1.0.0",
+  "description": "Screenshotting service for Plunker",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Geoff Goodman",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.12",
+    "bluebird-lru-cache": "^0.1.3",
+    "boom": "^2.6.1",
+    "concat-stream": "^1.4.7",
+    "good": "^5.1.2",
+    "hapi": "^8.2.0",
+    "hoek": "^2.11.0",
+    "imagemagick-stream": "^2.0.0",
+    "joi": "^5.1.0",
+    "object-path": "^0.9.0",
+    "phantomjs": "^1.9.15",
+    "screenshot-stream": "^1.2.3"
+  }
+}
